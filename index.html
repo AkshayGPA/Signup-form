@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<!-- Desc tag missing. Is it even a tag or am i missing something -->
+
+<body>
+
+    <div id="signup-form">
+        <h1>Signup</h1>
+        
+        <form id="form">
+            <!-- <label for="full-name" id="'fullName">Full Name</label> -->
+            <input type="text" id="full-name" name="fullname" placeholder="Full Name" required>
+
+            <hr class="bottom-border">
+
+            <!-- <label for="email">Email</label> -->
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <hr class="bottom-border">
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <hr class="bottom-border">
+            <input type="password" id="password2" name="confirm-password"   placeholder="Confirm Password" required>
+            <hr class="bottom-border">
+            <!-- <label></label> -->
+            <input type="date" id="date-of-birth" name="dob" placeholder="MM/DD/YYYY" required>
+            <hr class="bottom-border">
+            <div class="individual-type">
+                <label class="label" for="student"><input type="radio" class="input" id="student" name="radio" required>Student</label>
+
+                <label class="label" for="employee"><input type="radio" class="input" id="employee" name="radio" required>Employee</label>
+            </div>
+
+            <label for="tc" class="label"><input type="checkbox" id="tc" required>I agree to all the terms and conditions</label>
+
+            <button type="submit" id="submit">Signup</button>
+        </form>
+    </div>
+</body>
+</html>
